@@ -10,9 +10,9 @@
 #define PIN_REDEFINE_TIME          4  //If LOW on startup, sets the timer according to TIME_INIT constants. Otherwise, the Arduino reads time settings from EEPROM.
 #define PIN_REDEFINE_ELAPSED_HOURS 5 //If LOW on startup, sets the elapsed hours to zero. 
 
-#define TIME_INIT_SECONDS       0 //Clock's initial seconds
-#define TIME_INIT_MINUTES       45 //Clock's initial minutes
-#define TIME_INIT_HOURS         11 //Clock's initial hours
+#define TIME_INIT_SECONDS       19 //Clock's initial seconds
+#define TIME_INIT_MINUTES       50 //Clock's initial minutes
+#define TIME_INIT_HOURS         00 //Clock's initial hours
 // ------------------------------------------------------------
 
 #define EEPROM_ADDR_SECONDS     0 //EEPROM's address for storing the seconds
